@@ -1,0 +1,113 @@
+.pricing{
+    width: 100%;
+    background-color: #000;
+    padding: 2vw 4vw;
+    border-bottom-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    
+}
+.pricing-box{
+    margin-top: 5vw;
+    margin-bottom: 12vw;
+    width: 100%;
+    min-height: 65vh;
+    /* background-color: lightgreen; */
+    /* background-color: #9FC131; */
+    
+}
+.pricing-box h1{
+    font-size: 4vw;
+    color: #bababa;
+    
+    font-weight: 700;
+}
+.pricing-box h1 span{
+    color: #9FC131;
+    font-weight: 500;
+    font-style: italic;
+}
+.price-card-container{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+.price-card {
+    flex: 1;                /* Make cards take up equal space */
+    width: 20rem;           /* Set the width to 20rem */
+    height: 30rem;          /* Set the height to 25rem */
+    text-align: left;     /* Center the text inside the card */
+    border-radius: 8px;     /* Optional: rounded corners for the cards */
+    padding: 2px 10px;
+    
+}
+
+.price-card h3{
+    font-size: 1.5vw;
+}
+.basic{
+    background-color: #121212;
+    transition: all ease-in-out .3s;
+}
+.basic h1{
+    color: #9FC131;
+}
+.basic h3,ul li{
+    color: #bababa;
+}
+.basic p{
+    color: #bababa;
+}
+.advance h1,h3{
+    color: #000;
+}
+.advance ul li{
+    color: #000;
+}
+.advance p{
+    color: #000;
+}
+.advance{
+    
+    background-color: #9FC131;
+    transition: all ease-in-out .3s;
+}
+.premium{
+    background-color: #9FC131;
+    transition: all ease-in-out .3s;
+}
+.premium:hover{
+    height: 35rem;
+}
+.advance:hover{
+    height: 35rem;
+  }
+  .basic:hover{
+    height: 35rem;
+  }
+  .price-card ul{
+    list-style: disc;
+    padding-top: 2vw;
+    padding-left: 1vw;
+  }
+  .price-card ul li{
+    font-size: 1.1vw;
+  }
+  .price-card p{
+    font-size: .9vw;
+    padding-top: 5vw;
+  }
+  .advance p{
+    padding-top: 2vw;
+  }
+  .premium h1{
+    color: #000;
+  }
+  .premium ul li{
+    color: #000;
+  }
+  .premium p{
+    padding-top: 1vw;
+    color: #000;
+  }

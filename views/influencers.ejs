@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Influencer Finder - Categories</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #121212;
+      color: #bababa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .main {
+      display: flex;
+      flex-grow: 1; /* Ensures the middle section takes up available space */
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #9FC131;
+    }
+    .scrollable-menu {
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+
+    /* Fix the layout size for the left and right panels */
+    aside {
+      flex-shrink: 0;
+    }
+
+    /* Adjust card grid gap */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Cards will wrap, with a min width */
+      gap: 1rem; /* Smaller gap between cards */
+    }
+
+    /* Custom Scrollbar Styling */
+    .scrollable-menu::-webkit-scrollbar {
+      width: 8px; /* Adjust width for vertical scrollbar */
+    }
+
+    .scrollable-menu::-webkit-scrollbar-track {
+      background: #1f1f1f; /* Background color for scrollbar track */
+    }
+
+    .scrollable-menu::-webkit-scrollbar-thumb {
+      background-color: #9FC131; /* Color of the scroll thumb */
+      border-radius: 4px; /* Rounded corners */
+      border: 2px solid #121212; /* Space between thumb and track */
+    }
+
+    .scrollable-menu::-webkit-scrollbar-thumb:hover {
+      background-color: #b5d75b; /* Hover effect color for the thumb */
+    }
+
+    .card {
+      background-color: #2c2c2c;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      color: #9FC131;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="p-4 border-b border-gray-700">
+    <!-- Insert your existing navbar here -->
+    <div>Navbar Placeholder</div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="main p-4">
+    <!-- Left Sidebar - Categories -->
+    <aside class="w-1/4 p-4 border-r border-gray-700 scrollable-menu">
+      <h2 class="text-lg font-semibold mb-4">Categories</h2>
+      <ul class="space-y-2">
+        <li><a href="/fitness" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Fitness</a></li>
+        <li><a href="/beauty" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Beauty</a></li>
+        <li><a href="/fashion" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Fashion</a></li>
+        <li><a href="/travel" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Travel</a></li>
+        <li><a href="/food" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Food & Nutrition</a></li>
+        <li><a href="/tech" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Technology</a></li>
+        <li><a href="/gaming" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Gaming</a></li>
+        <li><a href="/parenting" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Parenting</a></li>
+        <li><a href="/finance" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Finance & Investing</a></li>
+        <li><a href="/automotive" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Automotive</a></li>
+        <li><a href="/sports" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Sports</a></li>
+        <li><a href="/health" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Health & Wellness</a></li>
+        <li><a href="/lifestyle" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Lifestyle</a></li>
+        <li><a href="/photography" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Photography</a></li>
+        <li><a href="/pets" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Pets</a></li>
+        <li><a href="/education" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Education</a></li>
+        <li><a href="/home_decor" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Home Decor</a></li>
+        <li><a href="/real_estate" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Real Estate</a></li>
+        <li><a href="/entrepreneurship" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Entrepreneurship</a></li>
+        <li><a href="/art" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Art & Design</a></li>
+        <li><a href="/music" class="text-bababa hover:text-gray-300 block p-2 rounded hover:bg-gray-800">Music</a></li>
+      </ul>
+    </aside>
+
+    <!-- Middle Content - Influencer Cards -->
+    <section class="flex-grow p-4">
+      <h2 class="text-lg font-semibold mb-4">Influencers</h2>
+      <div class="card-grid">
+        <% if (userdata.length > 0) { %>
+          <% userdata.forEach(data => { %>
+            <div class="card">
+              <h3 class="text-lg font-bold mb-2 text-9FC131"><%= data.name %></h3>
+              <p class="mb-2"><%= data.bio %></p>
+              <p>Followers - <%= data.followers %></p>
+            </div>
+          <% }) %>
+        <% } else if (error) { %>
+          <p><%= error %></p>
+        <% } else { %>
+          <p>No influencers found in this category.</p>
+        <% } %>
+      </div>
+    </section>
+
+    <!-- Right Sidebar - Current User Data (Placeholder for Content) -->
+    <aside class="w-1/4 p-4 border-l border-gray-700">
+      <h2 class="text-lg font-semibold mb-4">User Data</h2>
+      <div class="bg-gray-800 p-4 rounded-lg shadow">
+        <h3 class="text-lg font-bold text-9FC131">User Name</h3>
+        <p>Email: user@example.com</p>
+        <p>Role: Admin</p>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

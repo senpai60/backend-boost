@@ -1,0 +1,38 @@
+:root{
+    --model-card-head-color:#bababa;
+}
+
+.page-models{
+    width: 100%;
+    min-height: 100vh;
+
+}
+.followers h2{
+    font-family: "Poppins", sans-serif;
+    color: var(--model-card-head-color);
+    font-weight: 300;
+    font-size: .8rem;
+}
+.promotions h2{
+    font-family: "Poppins", sans-serif;
+    color: var(--model-card-head-color);
+    font-weight: 300;
+    font-size: .8rem;
+}
+.rating h2{
+    font-family: "Poppins", sans-serif;
+    color: var(--model-card-head-color);
+    font-weight: 300;
+    font-size: .8rem;
+}
+.data-name{
+    color: #9FC131;
+}
+.dp{
+   width: 3vw;
+}
+.dp img{
+    width: 8vw;
+    border-radius: 50%; 
+    
+}

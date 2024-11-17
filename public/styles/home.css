@@ -1,0 +1,82 @@
+
+.page-one{
+    width: 100%;
+    height: 100vh;
+    background-color: #121212;
+    position: relative;
+}
+.page-one-content{
+    width: 50%;
+    height: 80%;
+    /* background-color: lightgrey; */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    
+}
+.p-one-texts{
+    height: 100%;
+    width: 50%;
+    /* background-color: #9FC131; */
+}
+.p-one-svg{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -5%;
+    top: -20%;
+    position: absolute;
+}
+.p-one-svg img{
+    width: 90%;
+}
+
+/* TEXTS */
+.p-one-texts h1{
+    font-weight: 700;
+    font-size: 3vw;
+    color: #bababa;
+}
+.p-one-texts h1 span{
+    font-weight: 700;
+    color: #9FC131;
+}
+.p-one-texts p{
+    padding-top: 2vw;
+    color: #bababa;
+    font-weight: 400;
+}
+
+.get-more-btns{
+    /* background-color: aliceblue; */
+    padding-top: 2vw;
+    height: 6vw;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.ovr-btn{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2vw;
+    color: #121212;
+}
+.get-more{
+    background-color: #9FC131;
+    border: none;
+    outline: none;
+    padding: 1vw;
+    border-radius: 30px;
+    transition: all ease .3s;
+    color: #121212;
+
+}   
+.ovr-btn h:hover{
+    background-color: #bababa;
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    padding: 0 2vw;
+}
+.contact-box{
+    width: 100%;
+    height: 100%;
+    background-color: #9FC131;
+    border-radius: 220px;
+    padding: 4vw;
+}
+.contact-left{
+    width: 40%;
+}
+.contact-left-content h1{
+    font-size: 4.5vw;
+    color: #121212;
+    font-weight: 700;
+}
+.contact-left-content h4{
+    font-size: 1.5vw;
+    color: #272727;
+}
+.contact-right{
+    width: 60%;
+}
+.contact-right form{
+    padding: 4vw;
+    width: 100%;
+    background-color: #121212;
+    border-radius: 40px;
+}
+.input-contact{
+    color: #121212;
+    background-color: #9FC131;
+    outline: none;
+    padding: 2vw;
+    border-radius: 10px;
+}
+.contact form textarea{
+    background-color: #9FC131;
+    border-radius: 10px;
+    padding: 1.5vw;
+    color: #121212;
+}
+.contact-submit{
+    padding: 1vw 2vw;
+    background-color: #9FC131;
+    margin-top: 2vw;
+    color: #121212;
+    cursor: pointer;
+    border: 4px solid #121212;
+}
+.contact form input::placeholder{
+    color: #121212;
+}
+.contact form textarea::placeholder{
+    color: #121212;
+}
+.contact-submit:hover{
+    border: 4px solid #9FC131;
+    background-color: transparent;
+    color: #9FC131;
+}

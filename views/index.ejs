@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ProjectBoost</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.css" /> -->
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/about.css">
+    <link rel="stylesheet" href="/styles/models.css">
+    <link rel="stylesheet" href="/styles/pricing.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+<body>
+    <div id="main">
+        <div class="hide" onclick="CloseSideBar()"><i class="ri-arrow-drop-right-line" style="color: #bababa;"></i></div>
+        <div class="left-navs">
+                <div class="search" onclick="OpenSideNav()"><i class="ri-search-line" style="color: black;"></i></div>
+                <div class="search-content">
+
+                </div>
+                
+        </div>
+        <div id="nav-bar" class="nav fixed-nav">
+            
+            <div class="logo">
+                <img src="/Images/300.png" alt="">
+                <h3>StartUpBoost</h3>
+            </div>
+            <div class="nav-links">
+                <h4 class="links"><a href="/">Home</a></h4>
+                <h4 class="links"><a href="#">About</a></h4>
+                <h4 class="links"><a href="/influencers">Influencers</a></h4>
+                <h4 class="links"><a href="#">Pricings</a></h4>
+                <h4 class="links"><a href="#">Contact</a></h4>
+            </div>
+        </div>
+        <div class="page-one">
+            <div class="page-one-content">
+                <div class="p-one-texts">
+                    <h1>Supercharge Your  <span>Brand</span> with <span>StartUpBoost</span></h1>
+                    <p>Connect with high-impact, active influencers who drive real engagement—all within your budget. Get noticed. Get results.</p>
+                    
+                        <div class="ovr-btn"><button onclick="window.location.href='/influencers';" class="get-more">Explore Influencers!</button></div>
+                </div>
+                <div class="p-one-svg">
+                    <img src="/Images/home-svg.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="page-about">
+            <div class="about-content">
+                <div class="about-card-contain">
+                    <div class="about-card">
+                        <div class="about-card-top"><div class="about-card-icon">
+                            <i class="ri-line-chart-fill"></i>
+                        </div></div>
+                        <div class="about-card-bottom">
+                            <h2>Transparent Results</h2>
+                            <p>Track every step of your campaign’s journey with clear metrics and insights. We’re all about data-driven decisions and measurable growth.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-top"><div class="about-card-icon">
+                            <i class="ri-verified-badge-fill"></i>
+                        </div></div>
+                        <div class="about-card-bottom">
+                            <h2>Active Creators Only</h2>
+                            <p>Our influencers are not just active but actively thriving. With StartUpBoost, you work with creators who consistently engage and influence on social media.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-top"><div class="about-card-icon">
+                            <i class="ri-hand-coin-fill"></i>
+                        </div></div>
+                        <div class="about-card-bottom">
+                            <h2>Maximized ROI</h2>
+                            <p>Stretch your marketing budget with campaigns designed for maximum return. We focus on delivering meaningful engagement and growth for your brand.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="about-card-contain">
+                    <div class="about-card">
+                        <div class="about-card-top"><div class="about-card-icon">
+                            <i class="ri-money-rupee-circle-fill"></i>
+                        </div></div>
+                        <div class="about-card-bottom">
+                            <h2>Budget-Friendly Influence</h2>
+                            <p>Get access to top influencers who deliver maximum impact without straining your budget. We focus on giving you more value for every dollar spent.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-top"><div class="about-card-icon">
+                            <i class="ri-shield-keyhole-fill"></i>
+                        </div></div>
+                        <div class="about-card-bottom">
+                            <h2>Authentic Engagement</h2>
+                            <p>Partner with influencers known for building real, loyal communities. Our creators spark genuine conversations and connect your brand directly to engaged audiences.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-top"><div class="about-card-icon">
+                            <i class="ri-stack-fill"></i>
+                        </div></div>
+                        <div class="about-card-bottom">
+                            <h2>Tailored Campaigns</h2>
+                            <p>No one-size-fits-all here. We match you with influencers who align with your brand’s vision and goals, ensuring campaigns that resonate and deliver.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="page-models bg-black p-10">
+            <div class="model-card-container w-full h-full flex flex-wrap gap-6 items-stretch">
+              <% if (userdata.length>0) {%>
+                <% userdata.forEach(data => { %>
+                    <div class="model-card bg-zinc-900 flex-grow-0 flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 h-48 bg-zinc-200 rounded-lg shadow-lg p-4">
+                        <!-- Content for the second card -->
+                        <div class="model-card-head-data flex gap-10">
+                          <div class="dp"><img src="<%= data.imgToProfile %>" alt=""></div>
+                          <div class="follow-advts-rating flex gap-6">
+                            <div class="followers flex flex-col">
+                              <h2><%= data.followers %></h2> <!-- Corrected closing tag -->
+                              <h2>Followers</h2>
+                            </div>
+                            <div class="promotions">
+                              <h2><%= data.promotions %></h2> <!-- Corrected closing tag -->
+                              <h2>Promotions</h2>
+                            </div>
+                            <div class="rating">
+                              <h2><%= data.rating %></h2> <!-- Corrected closing tag -->
+                              <h2>Rating</h2>
+                            </div>
+                          </div>
+                        </div>
+                        <h2 class="data-name text-lg font-bold mt-4"><%= data.name %></h2>
+                        <p class="data-bio"><%= data.bio %></p>
+                      </div>
+                <% }) %>
+              <%} %>
+            </div>
+          </div>
+
+          <!-- Pricings -->
+           <div class="pricing">
+            <div class="pricing-box">
+                <h1>Elevate <span>Your Brand</span> with Our Plans</h1>
+                <div class="price-card-container">
+                    <div class="price-card basic">
+                        <h1>BASIC</h1>
+                        <h3>₹00/month</h3>
+                        <ul>
+                            <li>Access to a limited set of influencers</li>
+                            <li>Budget-based influencer recommendations</li>
+                            <li>Basic analytics and campaign tracking</li>
+                            <li>1 active campaign at a time</li>
+                            <li>Email support</li>
+                        </ul>
+                        <p class="text-zinc-100">Perfect for established businesses or startups with larger budgets looking for premium influencer marketing and personalized support for maximum impact.</p>
+                    </div>
+    
+                    <div class="price-card advance">
+                        <h1>ADVANCE</h1>
+                        <h3>₹399/month</h3>
+                        <ul>
+                            <li>Access to a wider selection of influencers</li>
+                            <li>Customized influencer recommendations based on budget and engagement</li>
+                            <li>Advanced campaign analytics and reporting</li>
+                            <li>3 active campaigns at a time</li>
+                            <li>Priority email support</li>
+                            <li>Monthly strategy consultation</li>
+                        </ul>
+                        <p>Perfect for Growing businesses ready to scale their influencer marketing efforts and track detailed campaign performance.</p>
+                    </div>
+
+                    <div class="price-card premium">
+                        <h1>PREMIUM</h1>
+                        <h3>₹899/month</h3>
+                        <ul>
+                            <li>Access to top-tier influencers with high engagement rates</li>
+                            <li>Fully personalized influencer recommendations</li>
+                            <li>In-depth analytics and detailed reporting with real-time updates</li>
+                            <li>Unlimited active campaigns</li>
+                            <li>Dedicated account manager</li>
+                            <li>24/7 priority support</li>
+                        </ul>
+                        <p>Perfect for Established businesses or startups with larger budgets looking for premium influencer marketing and personalized support for maximum impact.</p>
+                    </div>
+                </div>
+                    
+            </div>
+           </div>
+
+           <!-- Contact-Form -->
+            <div class="contact">
+                <div class="contact-box flex">
+                    <div class="contact-left flex items-center justify-center">
+                        <div class="contact-left-content">
+                            <h1>We’d Love to Hear From You.</h1>
+                        <h4>Have questions or want to learn more about how StartUpBoost can help your business grow? Our team is here to assist you with any inquiries or support you need. Feel free to reach out, and we’ll get back to you as soon as possible.</h4>
+                        </div>
+                    </div>
+                    <div class="contact-right flex justify-center items-center">
+                        <form class="rounded-md p-8" action="">
+                            <input class="input-contact block w-full mt-6 h-10" type="text" placeholder="Your Name">
+                            <input class="input-contact block w-full mt-6 h-10" type="email" placeholder="Email@">
+                            <textarea class="resize-none outline-none block w-full mt-6 h-44" name="contactmessage" id="" placeholder="Message"></textarea>
+                            <input class="contact-submit" type="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="bg-[#121212] text-[#bababa] py-8">
+                <div class="container mx-auto px-6 sm:px-12">
+                    <!-- Footer Content Section -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                        <!-- Column 1: Contact Info -->
+                        <div>
+                            <h3 class="text-[#9FC131] text-xl font-semibold mb-4">Contact Us</h3>
+                            <p class="mb-2">Email: support@startupboost.com</p>
+                            <p class="mb-2">Phone: +91-XXXXXXXXXX</p>
+                            <div class="flex space-x-4 mt-4">
+                                <a href="#" class="text-[#bababa] hover:text-[#9FC131]">Instagram</a>
+                                <a href="#" class="text-[#bababa] hover:text-[#9FC131]">LinkedIn</a>
+                                <a href="#" class="text-[#bababa] hover:text-[#9FC131]">Twitter</a>
+                            </div>
+                        </div>
+            
+                        <!-- Column 2: Quick Links -->
+                        <div>
+                            <h3 class="text-[#9FC131] text-xl font-semibold mb-4">Quick Links</h3>
+                            <ul>
+                                <li><a href="#" class="text-[#bababa] hover:text-[#9FC131]">Home</a></li>
+                                <li><a href="#" class="text-[#bababa] hover:text-[#9FC131]">About</a></li>
+                                <li><a href="#" class="text-[#bababa] hover:text-[#9FC131]">Services</a></li>
+                                <li><a href="#" class="text-[#bababa] hover:text-[#9FC131]">Contact</a></li>
+                            </ul>
+                        </div>
+            
+                        <!-- Column 3: Subscribe -->
+                        <div>
+                            <h3 class="text-[#9FC131] text-xl font-semibold mb-4">Subscribe</h3>
+                            <p class="mb-4">Stay updated with the latest news and offers from StartUpBoost.</p>
+                            <input type="email" placeholder="Enter your email" class="w-full p-3 text-[#bababa] bg-[#1a1a1a] border-2 border-[#bababa] rounded-md focus:outline-none focus:border-[#9FC131] mb-4" />
+                            <button class="w-full bg-[#9FC131] text-[#121212] py-3 rounded-md hover:bg-[#7b9d2f]">Subscribe</button>
+                        </div>
+                    </div>
+            
+                    <!-- Footer Bottom Section -->
+                    <div class="text-center text-[#bababa] mt-8">
+                        <p>&copy; 2024 StartUpBoost. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </footer>
+            
+          
+
+        
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/scripts/style.js"></script>
+</body>
+</html>

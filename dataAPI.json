@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Amrita Singh",
+    "imgToProfile": "https://i.pravatar.cc/150?img=1",
+    "followers": "13.5K",
+    "promotions": 5,
+    "rating": "4.2/5",
+    "bio": "🌍 Travel writer & explorer. Seeking stories across borders and boundaries! ✈️",
+    "category": "Fitness"
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "imgToProfile": "https://i.pravatar.cc/150?img=2",
+    "followers": "10K",
+    "promotions": 3,
+    "rating": "4.0/5",
+    "bio": "💅 Beauty enthusiast sharing tips & tricks! 💄",
+    "category": "Beauty"
+  },
+  {
+    "id": 3,
+    "name": "Jane Smith",
+    "imgToProfile": "https://i.pravatar.cc/150?img=3",
+    "followers": "20K",
+    "promotions": 7,
+    "rating": "4.5/5",
+    "bio": "👗 Fashionista on the move. Bringing trends to your doorstep! 🌟",
+    "category": "Fashion"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Lee",
+    "imgToProfile": "https://i.pravatar.cc/150?img=4",
+    "followers": "15K",
+    "promotions": 4,
+    "rating": "4.3/5",
+    "bio": "🌍 Travel writer & explorer. Seeking stories across borders and boundaries! ✈️",
+    "category": "Travel"
+  },
+  {
+    "id": 5,
+    "name": "Michael Johnson",
+    "imgToProfile": "https://i.pravatar.cc/150?img=5",
+    "followers": "12K",
+    "promotions": 6,
+    "rating": "4.1/5",
+    "bio": "🍴 Food lover exploring healthy recipes and delicious meals! 🍽️",
+    "category": "Food & Nutrition"
+  },
+  {
+    "id": 6,
+    "name": "Alice Brown",
+    "imgToProfile": "https://i.pravatar.cc/150?img=6",
+    "followers": "8K",
+    "promotions": 2,
+    "rating": "4.2/5",
+    "bio": "💻 Tech geek with a passion for gadgets and software! 🔧",
+    "category": "Technology"
+  },
+  {
+    "id": 7,
+    "name": "David White",
+    "imgToProfile": "https://i.pravatar.cc/150?img=7",
+    "followers": "9K",
+    "promotions": 3,
+    "rating": "4.4/5",
+    "bio": "🎮 Gaming enthusiast bringing you the latest updates & reviews! 🕹️",
+    "category": "Gaming"
+  },
+  {
+    "id": 8,
+    "name": "Sophie Harris",
+    "imgToProfile": "https://i.pravatar.cc/150?img=8",
+    "followers": "14K",
+    "promotions": 5,
+    "rating": "4.3/5",
+    "bio": "👶 Mom of two, sharing parenting tips and family fun! 💕",
+    "category": "Parenting"
+  },
+  {
+    "id": 9,
+    "name": "Brian Clark",
+    "imgToProfile": "https://i.pravatar.cc/150?img=9",
+    "followers": "11K",
+    "promotions": 4,
+    "rating": "4.0/5",
+    "bio": "💼 Finance pro breaking down the latest market trends! 📊",
+    "category": "Finance & Investing"
+  },
+  {
+    "id": 10,
+    "name": "Emma Green",
+    "imgToProfile": "https://i.pravatar.cc/150?img=10",
+    "followers": "17K",
+    "promotions": 5,
+    "rating": "4.5/5",
+    "bio": "🚗 Automotive expert sharing reviews and the latest car news! 🚘",
+    "category": "Automotive"
+  },
+  {
+    "id": 11,
+    "name": "Olivia Martinez",
+    "imgToProfile": "https://i.pravatar.cc/150?img=11",
+    "followers": "16K",
+    "promotions": 2,
+    "rating": "4.3/5",
+    "bio": "🏅 Sports lover sharing fitness tips and game updates! ⚽",
+    "category": "Sports"
+  },
+  {
+    "id": 12,
+    "name": "Liam Scott",
+    "imgToProfile": "https://i.pravatar.cc/150?img=12",
+    "followers": "13K",
+    "promotions": 6,
+    "rating": "4.1/5",
+    "bio": "🧘‍♀️ Health and wellness advocate focused on balanced living! 🌿",
+    "category": "Health & Wellness"
+  },
+  {
+    "id": 13,
+    "name": "Sophia Taylor",
+    "imgToProfile": "https://i.pravatar.cc/150?img=13",
+    "followers": "9K",
+    "promotions": 3,
+    "rating": "4.0/5",
+    "bio": "🌱 Lifestyle content creator focused on eco-friendly living! 🌍",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 14,
+    "name": "George King",
+    "imgToProfile": "https://i.pravatar.cc/150?img=14",
+    "followers": "10K",
+    "promotions": 2,
+    "rating": "4.4/5",
+    "bio": "📸 Professional photographer capturing life’s most beautiful moments! 🌟",
+    "category": "Photography"
+  },
+  {
+    "id": 15,
+    "name": "Nina Lewis",
+    "imgToProfile": "https://i.pravatar.cc/150?img=15",
+    "followers": "11K",
+    "promotions": 4,
+    "rating": "4.2/5",
+    "bio": "🐾 Pet lover sharing tips on care and training! 🐶",
+    "category": "Pets"
+  },
+  {
+    "id": 16,
+    "name": "Lucas Young",
+    "imgToProfile": "https://i.pravatar.cc/150?img=16",
+    "followers": "14K",
+    "promotions": 5,
+    "rating": "4.5/5",
+    "bio": "📚 Education advocate, focused on improving learning experiences! 🧑‍🏫",
+    "category": "Education"
+  },
+  {
+    "id": 17,
+    "name": "Charlotte Hall",
+    "imgToProfile": "https://i.pravatar.cc/150?img=17",
+    "followers": "12K",
+    "promotions": 3,
+    "rating": "4.3/5",
+    "bio": "🏠 Home decor enthusiast sharing tips for stylish living! 🛋️",
+    "category": "Home Decor"
+  },
+  {
+    "id": 18,
+    "name": "Mason Walker",
+    "imgToProfile": "https://i.pravatar.cc/150?img=18",
+    "followers": "8K",
+    "promotions": 2,
+    "rating": "4.1/5",
+    "bio": "🏡 Real estate expert sharing property tips and market trends! 🏘️",
+    "category": "Real Estate"
+  },
+  {
+    "id": 19,
+    "name": "Ella Allen",
+    "imgToProfile": "https://i.pravatar.cc/150?img=19",
+    "followers": "10K",
+    "promotions": 3,
+    "rating": "4.4/5",
+    "bio": "🚀 Entrepreneurship expert sharing startup strategies and tips! 💼",
+    "category": "Entrepreneurship"
+  },
+  {
+    "id": 20,
+    "name": "James Clark",
+    "imgToProfile": "https://i.pravatar.cc/150?img=20",
+    "followers": "13K",
+    "promotions": 5,
+    "rating": "4.3/5",
+    "bio": "🎨 Artist and designer sharing creative tips and inspiration! 🖌️",
+    "category": "Art & Design"
+  },
+  {
+    "id": 21,
+    "name": "Zoe Collins",
+    "imgToProfile": "https://i.pravatar.cc/150?img=21",
+    "followers": "17K",
+    "promotions": 6,
+    "rating": "4.5/5",
+    "bio": "🎶 Music enthusiast bringing you the latest from the music world! 🎸",
+    "category": "Music"
+  },
+  {
+    "id": 22,
+    "name": "Henry Hill",
+    "imgToProfile": "https://i.pravatar.cc/150?img=22",
+    "followers": "14K",
+    "promotions": 2,
+    "rating": "4.0/5",
+    "bio": "🏃‍♂️ Fitness expert sharing workout routines and health tips! 💪",
+    "category": "Fitness"
+  },
+  {
+    "id": 23,
+    "name": "Isabella Adams",
+    "imgToProfile": "https://i.pravatar.cc/150?img=23",
+    "followers": "16K",
+    "promotions": 5,
+    "rating": "4.3/5",
+    "bio": "💄 Beauty lover sharing makeup tutorials and skincare routines! ✨",
+    "category": "Beauty"
+  },
+  {
+    "id": 24,
+    "name": "Daniel Perez",
+    "imgToProfile": "https://i.pravatar.cc/150?img=24",
+    "followers": "9K",
+    "promotions": 3,
+    "rating": "4.2/5",
+    "bio": "🎧 Fashion expert keeping you updated with the latest trends! 🕶️",
+    "category": "Fashion"
+  },
+  {
+    "id": 25,
+    "name": "Grace Turner",
+    "imgToProfile": "https://i.pravatar.cc/150?img=25",
+    "followers": "13K",
+    "promotions": 4,
+    "rating": "4.5/5",
+    "bio": "🌍 World traveler capturing stories and experiences! ✈️",
+    "category": "Travel"
+  },
+  {
+    "id": 26,
+    "name": "Jack Lewis",
+    "imgToProfile": "https://i.pravatar.cc/150?img=26",
+    "followers": "11K",
+    "promotions": 5,
+    "rating": "4.0/5",
+    "bio": "🍲 Sharing my love for nutritious and delicious food! 🥗",
+    "category": "Food & Nutrition"
+  },
+  {
+    "id": 27,
+    "name": "Ava King",
+    "imgToProfile": "https://i.pravatar.cc/150?img=27",
+    "followers": "12K",
+    "promotions": 6,
+    "rating": "4.3/5",
+    "bio": "💻 Tech guru sharing the latest gadget reviews! 🖥️",
+    "category": "Technology"
+  },
+  {
+    "id": 28,
+    "name": "Ethan Scott",
+    "imgToProfile": "https://i.pravatar.cc/150?img=28",
+    "followers": "14K",
+    "promotions": 2,
+    "rating": "4.4/5",
+    "bio": "🎮 Gaming content creator bringing fun challenges and updates! 🎮",
+    "category": "Gaming"
+  },
+  {
+    "id": 29,
+    "name": "Lily Johnson",
+    "imgToProfile": "https://i.pravatar.cc/150?img=29",
+    "followers": "9K",
+    "promotions": 5,
+    "rating": "4.1/5",
+    "bio": "👶 Parent sharing advice and stories on raising kids! 💕",
+    "category": "Parenting"
+  },
+  {
+    "id": 30,
+    "name": "Mason Walker",
+    "imgToProfile": "https://i.pravatar.cc/150?img=30",
+    "followers": "11K",
+    "promotions": 4,
+    "rating": "4.2/5",
+    "bio": "💼 Finance expert sharing insights on investments and saving! 📊",
+    "category": "Finance & Investing"
+  },
+  {
+    "id": 31,
+    "name": "Amrita Singh",
+    "imgToProfile": "https://i.pravatar.cc/150?img=31",
+    "followers": "50K",
+    "promotions": 6,
+    "rating": "4.5/5",
+    "bio": "🌍 Travel writer & explorer. Seeking stories across borders and boundaries! ✈️",
+    "category": "Fitness"
+  },
+  {
+    "id": 32,
+    "name": "John Doe",
+    "imgToProfile": "https://i.pravatar.cc/150?img=32",
+    "followers": "35K",
+    "promotions": 3,
+    "rating": "4.2/5",
+    "bio": "💅 Beauty enthusiast sharing tips & tricks! 💄",
+    "category": "Beauty"
+  },
+  {
+    "id": 33,
+    "name": "Jane Smith",
+    "imgToProfile": "https://i.pravatar.cc/150?img=33",
+    "followers": "65K",
+    "promotions": 4,
+    "rating": "4.5/5",
+    "bio": "👗 Fashionista on the move. Bringing trends to your doorstep! 🌟",
+    "category": "Fashion"
+  },
+  {
+    "id": 34,
+    "name": "Sarah Lee",
+    "imgToProfile": "https://i.pravatar.cc/150?img=34",
+    "followers": "80K",
+    "promotions": 5,
+    "rating": "4.3/5",
+    "bio": "🌍 Travel writer & explorer. Seeking stories across borders and boundaries! ✈️",
+    "category": "Travel"
+  },
+  {
+    "id": 35,
+    "name": "Michael Johnson",
+    "imgToProfile": "https://i.pravatar.cc/150?img=35",
+    "followers": "120K",
+    "promotions": 6,
+    "rating": "4.4/5",
+    "bio": "🍴 Food lover exploring healthy recipes and delicious meals! 🍽️",
+    "category": "Food & Nutrition"
+  },
+  {
+    "id": 36,
+    "name": "Alice Brown",
+    "imgToProfile": "https://i.pravatar.cc/150?img=36",
+    "followers": "95K",
+    "promotions": 2,
+    "rating": "4.2/5",
+    "bio": "💻 Tech geek with a passion for gadgets and software! 🔧",
+    "category": "Technology"
+  },
+  {
+    "id": 37,
+    "name": "David White",
+    "imgToProfile": "https://i.pravatar.cc/150?img=37",
+    "followers": "50K",
+    "promotions": 4,
+    "rating": "4.3/5",
+    "bio": "🎮 Gaming enthusiast bringing you the latest updates & reviews! 🕹️",
+    "category": "Gaming"
+  },
+  {
+    "id": 38,
+    "name": "Sophie Harris",
+    "imgToProfile": "https://i.pravatar.cc/150?img=38",
+    "followers": "100K",
+    "promotions": 5,
+    "rating": "4.2/5",
+    "bio": "👶 Mom of two, sharing parenting tips and family fun! 💕",
+    "category": "Parenting"
+  },
+  {
+    "id": 39,
+    "name": "Brian Clark",
+    "imgToProfile": "https://i.pravatar.cc/150?img=39",
+    "followers": "65K",
+    "promotions": 3,
+    "rating": "4.0/5",
+    "bio": "💼 Finance pro breaking down the latest market trends! 📊",
+    "category": "Finance & Investing"
+  },
+  {
+    "id": 40,
+    "name": "Emma Green",
+    "imgToProfile": "https://i.pravatar.cc/150?img=40",
+    "followers": "85K",
+    "promotions": 5,
+    "rating": "4.5/5",
+    "bio": "🚗 Automotive expert sharing reviews and the latest car news! 🚘",
+    "category": "Automotive"
+  },
+  {
+    "id": 41,
+    "name": "Olivia Martinez",
+    "imgToProfile": "https://i.pravatar.cc/150?img=41",
+    "followers": "130K",
+    "promotions": 3,
+    "rating": "4.3/5",
+    "bio": "🏅 Sports lover sharing fitness tips and game updates! ⚽",
+    "category": "Sports"
+  },
+  {
+    "id": 42,
+    "name": "Liam Scott",
+    "imgToProfile": "https://i.pravatar.cc/150?img=42",
+    "followers": "60K",
+    "promotions": 6,
+    "rating": "4.1/5",
+    "bio": "🧘‍♀️ Health and wellness advocate focused on balanced living! 🌿",
+    "category": "Health & Wellness"
+  },
+  {
+    "id": 43,
+    "name": "Sophia Taylor",
+    "imgToProfile": "https://i.pravatar.cc/150?img=43",
+    "followers": "110K",
+    "promotions": 3,
+    "rating": "4.2/5",
+    "bio": "🌱 Lifestyle content creator focused on eco-friendly living! 🌍",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 44,
+    "name": "George King",
+    "imgToProfile": "https://i.pravatar.cc/150?img=44",
+    "followers": "55K",
+    "promotions": 2,
+    "rating": "4.4/5",
+    "bio": "📸 Professional photographer capturing life’s most beautiful moments! 🌟",
+    "category": "Photography"
+  },
+  {
+    "id": 45,
+    "name": "Nina Lewis",
+    "imgToProfile": "https://i.pravatar.cc/150?img=45",
+    "followers": "120K",
+    "promotions": 4,
+    "rating": "4.2/5",
+    "bio": "🐾 Pet lover sharing tips on care and training! 🐶",
+    "category": "Pets"
+  },
+  {
+    "id": 46,
+    "name": "Lucas Young",
+    "imgToProfile": "https://i.pravatar.cc/150?img=46",
+    "followers": "130K",
+    "promotions": 5,
+    "rating": "4.5/5",
+    "bio": "📚 Education advocate, focused on improving learning experiences! 🧑‍🏫",
+    "category": "Education"
+  },
+  {
+    "id": 47,
+    "name": "Charlotte Hall",
+    "imgToProfile": "https://i.pravatar.cc/150?img=47",
+    "followers": "70K",
+    "promotions": 3,
+    "rating": "4.3/5",
+    "bio": "🏠 Home decor enthusiast sharing tips for stylish living! 🛋️",
+    "category": "Home Decor"
+  },
+  {
+    "id": 48,
+    "name": "Mason Walker",
+    "imgToProfile": "https://i.pravatar.cc/150?img=48",
+    "followers": "90K",
+    "promotions": 2,
+    "rating": "4.1/5",
+    "bio": "🏡 Real estate expert sharing property tips and market trends! 🏘️",
+    "category": "Real Estate"
+  },
+  {
+    "id": 49,
+    "name": "Ella Allen",
+    "imgToProfile": "https://i.pravatar.cc/150?img=49",
+    "followers": "105K",
+    "promotions": 3,
+    "rating": "4.4/5",
+    "bio": "🚀 Entrepreneurship expert sharing startup strategies and tips! 💼",
+    "category": "Entrepreneurship"
+  },
+  {
+    "id": 50,
+    "name": "James Clark",
+    "imgToProfile": "https://i.pravatar.cc/150?img=50",
+    "followers": "130K",
+    "promotions": 5,
+    "rating": "4.3/5",
+    "bio": "🎨 Artist and designer sharing creative tips and inspiration! 🖌️",
+    "category": "Art & Design"
+  },
+  {
+    "id": 51,
+    "name": "Zoe Collins",
+    "imgToProfile": "https://i.pravatar.cc/150?img=51",
+    "followers": "150K",
+    "promotions": 6,
+    "rating": "4.5/5",
+    "bio": "🎶 Music enthusiast bringing you the latest from the music world! 🎤",
+    "category": "Music"
+  },
+  {
+    "id": 52,
+    "name": "Daniel Roberts",
+    "imgToProfile": "https://i.pravatar.cc/150?img=52",
+    "followers": "50K",
+    "promotions": 4,
+    "rating": "4.0/5",
+    "bio": "🍸 Mixology expert teaching you the art of cocktail making! 🍹",
+    "category": "Food & Drinks"
+  },
+  {
+    "id": 53,
+    "name": "Samantha White",
+    "imgToProfile": "https://i.pravatar.cc/150?img=53",
+    "followers": "65K",
+    "promotions": 5,
+    "rating": "4.4/5",
+    "bio": "🌿 Gardening expert sharing tips for green thumbs! 🌸",
+    "category": "Gardening"
+  },
+  {
+    "id": 54,
+    "name": "Tyler Moore",
+    "imgToProfile": "https://i.pravatar.cc/150?img=54",
+    "followers": "70K",
+    "promotions": 4,
+    "rating": "4.2/5",
+    "bio": "🛠️ DIY enthusiast sharing home improvement projects and tips! 🏡",
+    "category": "DIY"
+  },
+  {
+    "id": 55,
+    "name": "Victoria Anderson",
+    "imgToProfile": "https://i.pravatar.cc/150?img=55",
+    "followers": "80K",
+    "promotions": 6,
+    "rating": "4.5/5",
+    "bio": "💄 Makeup artist sharing tutorials and beauty hacks! 💋",
+    "category": "Beauty"
+  },
+  {
+    "id": 56,
+    "name": "Ethan Johnson",
+    "imgToProfile": "https://i.pravatar.cc/150?img=56",
+    "followers": "95K",
+    "promotions": 5,
+    "rating": "4.3/5",
+    "bio": "🏍️ Motorcycle enthusiast sharing ride tips and adventures! 🏁",
+    "category": "Automotive"
+  },
+  {
+    "id": 57,
+    "name": "Mia Scott",
+    "imgToProfile": "https://i.pravatar.cc/150?img=57",
+    "followers": "55K",
+    "promotions": 6,
+    "rating": "4.0/5",
+    "bio": "🌸 Fashion lover sharing tips and trends from the runway to you! 👠",
+    "category": "Fashion"
+  },
+  {
+    "id": 58,
+    "name": "Benjamin Harris",
+    "imgToProfile": "https://i.pravatar.cc/150?img=58",
+    "followers": "100K",
+    "promotions": 3,
+    "rating": "4.3/5",
+    "bio": "💼 Business consultant helping you reach your goals! 📈",
+    "category": "Business"
+  },
+  {
+    "id": 59,
+    "name": "Mia James",
+    "imgToProfile": "https://i.pravatar.cc/150?img=59",
+    "followers": "75K",
+    "promotions": 4,
+    "rating": "4.2/5",
+    "bio": "🎬 Film buff sharing reviews and movie insights! 🎥",
+    "category": "Entertainment"
+  },
+  {
+    "id": 60,
+    "name": "Liam Davis",
+    "imgToProfile": "https://i.pravatar.cc/150?img=60",
+    "followers": "80K",
+    "promotions": 2,
+    "rating": "4.0/5",
+    "bio": "🌍 Travel photographer capturing life across the world! 📸",
+    "category": "Travel"
+  }
+]
